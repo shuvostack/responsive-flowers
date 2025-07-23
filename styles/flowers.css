@@ -1,0 +1,88 @@
+/* tailwind */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+/* font import Noto-Serif */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/* font import Inter */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* shared style */
+
+.light-gray{
+    color: rgba(137, 135, 161, 1);
+}
+
+.dark-gray{
+    color: rgba(37, 36, 50, 1);
+}
+
+
+
+/* navbar section */
+
+.navbar{
+    max-width: 1140px;
+    height: 71px;
+    display: flex;
+    justify-content: space-between;
+    margin: 30px auto;
+    align-items: center;
+}
+
+.nav-list ul{
+    display: flex;
+    gap: 48px;
+}
+
+
+
+/* style for mobile device */
+
+@media screen and (max-width: 639px){
+
+    /* navbar */
+    .navbar{
+        margin: 67px 16px 28px 16px;
+    }
+
+    .nav-logo{
+        width: 63px;
+        height: 38px;
+    }
+
+    #mobile-li{
+        width: 113px;
+        height: 24px;
+    }
+}
