@@ -184,6 +184,71 @@
     cursor: pointer;
 }
 
+/* Plants Lover section */
+
+.lover{
+    max-width: 1140px;
+    height: 597px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px auto;
+    margin-top: 210px;
+    margin-bottom: 133px;
+}
+
+.lover-image{
+    display: flex;
+    max-width: 540px;
+    height: 597px;
+    position: relative;
+}
+
+.lover-image-1{
+    max-width: 540px;
+    height: 597px;
+}
+
+.lover-image-2{
+    max-width: 286px;
+    height: 286px;
+    position: absolute;
+    left: 360px;
+    top: -130px
+}
+
+/* lover text */
+
+.lover-text{
+    max-width: 540px;
+    height: 521px;
+    margin-top: 38px;
+    margin-bottom: 38px;
+}
+
+.lover-title{
+    max-width: 540px;
+    height: 137px;
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+
+.lover-description-parent{
+    margin-top: 20px;
+}
+
+.lover-description{
+    max-width: 540px;
+    height: 108px;
+    list-style: disc;
+    font-size: 1.375rem;
+    font-weight: 400px;
+    row-gap: 20px;
+}
+
+
+
+
+
 
 
 /* style for mobile device */
