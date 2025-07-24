@@ -47,6 +47,10 @@
     color: rgba(37, 36, 50, 1);
 }
 
+.description-color{
+    color: rgba(0, 0, 0, 0.5);
+}
+
 
 
 /* navbar section */
@@ -100,6 +104,85 @@
     align-items: end;
 }
 
+
+/* Plants Section */
+
+.plants-text{
+    max-width: 1140px;
+    height: 138px;
+    text-align: center;
+    margin: 0px auto;
+    margin-top: 120px;
+    margin-bottom: 49px;
+}
+
+.plants-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+#our{
+    color: rgba(233, 90, 8, 1);
+}
+
+.plants-description{
+    max-width: 888px;
+    height: 54px;
+    font-size: 1.375rem;
+    font-weight: 400px;
+    margin: 0px auto;
+}
+
+/* cards */
+
+.plants-card{
+    max-width: 1140px;
+    height: 999.88px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 40px;
+    margin-bottom: 83px;
+}
+
+.card{
+    max-width: 270px;
+    height: 484.94px;
+    text-align: center;
+}
+
+.card-image{
+    max-width: 270px;
+    height: 322.94px;
+    margin-bottom: 30px;
+}
+
+.card-name{
+    /* max-width: 132px;
+    height: 16px; */
+    font-size: 1.375rem;
+    font-weight: 500px;
+    color: rgba(17, 17, 17, 1);
+    margin-bottom: 5px;
+}
+
+.card-price{
+    /* max-width: 81px;
+    height: 16px; */
+    font-size: 1.375rem;
+    font-weight: bold;
+    color: rgba(17, 17, 17, 1);
+    margin-bottom: 20px;
+}
+
+.card-btn{
+    width: 270px;
+    height: 50px;
+    background-color: rgba(233, 90, 8, 1);
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
 
 
