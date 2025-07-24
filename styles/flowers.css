@@ -66,6 +66,42 @@
 }
 
 
+/* banner section */
+
+.banner{
+    max-width: 1140px;
+    height: 461px;
+    display: flex;
+    justify-content: space-between;
+    margin: 120px auto;
+    align-items: flex-end;
+}
+
+.banner-text{
+    max-width: 570px;
+    height: 299px;
+}
+
+.banner-title-1, .banner-title-2{
+    font-size: 4rem;
+    font-weight: 700px;
+
+}
+
+#fresh, .banner-title-2{
+    color: rgba(233, 90, 8, 1);
+}
+
+.banner-description{
+    max-width: 570px;
+    font-size: 1.375rem;
+    font-weight: 400px;
+    color: rgba(0, 0, 0, 0.5);
+    align-items: end;
+}
+
+
+
 
 /* style for mobile device */
 
