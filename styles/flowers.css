@@ -209,6 +209,7 @@
 
     .banner{
         flex-direction: column-reverse;
+        margin-bottom: 65px;
     }
 
     .banner-text{
@@ -239,5 +240,54 @@
         font-size: 0.875rem;
         font-weight: 400px;
         text-align: left;
+    }
+
+    /* Plants section */
+
+    .plants-text{
+        max-width: 393px;
+        height: 117px;
+        margin-top: 50px;
+        margin-bottom: 28px;
+    }
+
+    .plants-title{
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .plants-description{
+        font-size: 0.875rem;
+        font-weight: 400px;
+        max-width: 336px;
+        height: 68px;
+        margin-bottom: 28px;
+    }
+
+    /* cards */
+
+    .plants-card{
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 50px;
+    }
+
+    .card{
+        max-width: 171px;
+        height: 340px;
+        margin: 0px auto;
+    }
+
+    .card-image{
+        max-width: 171px;
+        height: 196px;
+    }
+
+    .card-name{
+        
+    }
+
+    .card-btn{
+        max-width: 171px;
+        height: 50px;
     }
 }
