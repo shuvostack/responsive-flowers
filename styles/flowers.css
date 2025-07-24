@@ -355,4 +355,41 @@
         max-width: 171px;
         height: 50px;
     }
+
+    /* Plants lover section */
+
+    .lover{
+        flex-direction: column;
+        max-width: 361px;
+        height: 648px;
+        margin-top: 600px;
+        margin-bottom: 0px;
+    }
+
+    .lover-image-1{
+        max-width: 358px;
+        height: 396px;
+        margin: 0px auto;
+    }
+
+    .lover-text{
+        max-width: 361px;
+        height: 234px;
+    }
+
+    .lover-title{
+        max-width: 270px;
+        height: 33px;
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+
+    .lover-description{
+        max-width: 330px;
+        height: 75px;
+        margin: 0px auto;
+        font-size: 0.875rem;
+        font-weight: 400px;
+        row-gap: 0px;
+    }
 }
