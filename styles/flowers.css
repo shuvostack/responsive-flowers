@@ -53,6 +53,7 @@
 
 
 
+
 /* navbar section */
 
 .navbar{
@@ -246,7 +247,123 @@
 }
 
 
+/* Latest deals section */
 
+.deal-text{
+    text-align: center;
+}
+
+.deal-title{
+    font-size: 3.125rem;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+#latest{
+    color: rgba(233, 90, 8, 1);
+}
+
+.deal-description{
+    max-width: 888px;
+    height: 54px;
+    margin: 0px auto;
+    font-size: 1.375rem;
+    font-weight: 400px;
+    margin-bottom: 120px;
+}
+
+/* deal image */
+
+.bloom{
+    background-image: url(../assets/deal-bloom.png);
+}
+
+.ana{
+    background-image: url(../assets/deal-ana.png);
+}
+
+.zabo{
+    background-image: url(../assets/deal-zabo.png);
+}
+
+
+
+.image-container{
+    max-width: 1140px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 28px;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.card{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.small{
+    max-width: 367px;
+    height: 201px;
+}
+
+.big{
+    max-width: 753px;
+    height: 423px;
+}
+
+.overlay{
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.big{
+    border-radius: 22px;
+}
+
+.big .overlay p{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.big .overlay button{
+    font-size: 1.75rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+
+
+.small{
+    border-radius: 14px;
+}
+
+.small .overlay p{
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.small .overlay button{
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: underline;
+}
 
 
 
@@ -334,11 +451,12 @@
     .plants-card{
         grid-template-columns: repeat(2, 1fr);
         row-gap: 50px;
+        height: auto;
     }
 
     .card{
         max-width: 171px;
-        height: 340px;
+        height: auto;
         margin: 0px auto;
     }
 
@@ -362,7 +480,7 @@
         flex-direction: column;
         max-width: 361px;
         height: 648px;
-        margin-top: 600px;
+        margin-top: 41px;
         margin-bottom: 0px;
     }
 
@@ -391,5 +509,76 @@
         font-size: 0.875rem;
         font-weight: 400px;
         row-gap: 0px;
+    }
+
+    /* latest deal text section */
+
+    .deals{
+        margin-top: 143px;
+    }
+
+
+    .deal-title{
+        font-size: 1.5rem;
+    }
+
+    .deal-description{
+        font-size: 0.875rem;
+        font-weight: 400px;
+        max-width: 336px;
+        margin-bottom: 51px;
+    }
+
+    /* deals image */
+
+    .image-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .left{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .card{
+        max-width: 361px;
+        height: 184px;
+    }
+
+    .card .small, .card .big{
+        width: 361px;
+        max-width: 361px;
+        height: auto;
+        min-height: 200px;
+    }
+
+    .overlay{
+        width: 361px;
+        align-items: center;
+        position: static;
+    }
+
+    .big .overlay p{
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        margin-top: 60px;
+    }
+
+    .big .overlay button {
+        font-size: 1.2rem;
+        margin-bottom: 50px;
+    }
+
+    .small .overlay p {
+        font-size: 1rem;
+        margin-top: 65px;
+    }
+
+    .small .overlay button {
+        font-size: 0.875rem;
+        margin-bottom: 70px;
     }
 }
