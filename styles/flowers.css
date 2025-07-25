@@ -419,6 +419,77 @@
 
 
 
+/* footer section styles */
+
+.footer-content{
+    max-width: 1120px;
+    height: 248px;
+    margin: 50px auto;
+    display: flex;
+    gap: 110px;
+}
+
+/* part 1 */
+
+.footer-part-1{
+    max-width: 359px;
+    height: 179px;
+}
+
+.part-1-img{
+    max-width: 135px;
+    height: 82px;
+    margin-bottom: 16px;
+}
+
+.part-1-description{
+    width: 350px;
+    height: 81px;
+}
+
+
+/* part 2 */
+
+.footer-part-2{
+    max-width: 85px;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-1 li{
+    margin-bottom: 35px;
+}
+
+/* part 3 */
+
+.footer-part-3{
+    max-width: 128px;
+    height: 248px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-2 li{
+    margin-bottom: 35px;
+}
+
+/* part 4 */
+
+.footer-part-4{
+    display: flex;
+    gap: 24px;
+    max-width: 216px;
+    height: 36px;
+}
+
+.footer-part-4 img{
+    width: 36px;
+    height: 36px;
+}
+
+
+
 
 /* style for mobile device */
 
